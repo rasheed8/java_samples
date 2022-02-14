@@ -33,3 +33,7 @@ ans: multiple child threads join to give combined result to parent thread::: thi
 if we directly call run() method, it wont span a new thread, it will get executed in same thread. In the above code, it will only main thread.
 
 ================================================================================================================================================
+
+Use case of Countdown Latch::
+Lets say we have invoked two async web services, when each gets response.. it will decrement countdown latch. when both get responses. the main invoker (which has invoked these threads) will resume.
+========================================================================================================================
