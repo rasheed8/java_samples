@@ -34,6 +34,7 @@ if we directly call run() method, it wont span a new thread, it will get execute
 
 ================================================================================================================================================
 
-Use case of Countdown Latch::
+Use case of Countdown Latch:
+
 Lets say we have invoked two async web services, when each gets response.. it will decrement countdown latch. when both get responses. the main invoker (which has invoked these threads) will resume.
 ========================================================================================================================
