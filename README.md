@@ -29,3 +29,5 @@ ans: multiple child threads join to give combined result to parent thread::: thi
 	}
 
 if we directly call run() method, it wont span a new thread, it will get executed in same thread. In the above code, it will only main thread.
+
+================================================================================================================================================
