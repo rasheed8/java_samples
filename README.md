@@ -51,6 +51,8 @@ As the name says, ReentrantLock allows threads to enter into the lock on a resou
 
 Reentrant Locks also offer a fairness parameter, by which the lock would abide by the order of the lock request i.e. after a thread unlocks the resource, the lock would go to the thread which has been waiting for the longest time. This fairness mode is set up by passing true to the constructor of the lock.
 
+==
+
 public void some_method()
 {
         reentrantlock.lock();
