@@ -23,9 +23,9 @@ ans: multiple child threads join to give combined result to parent thread::: thi
 		System.out.println(Thread.currentThread().getName());
 		t1.run();
 		
-		t1.start();
+	//	t1.start();
 		
 		
 	}
 
-if we directly call run() method, it wont span a new thread, it will get executed in same thread.
+if we directly call run() method, it wont span a new thread, it will get executed in same thread. In the above code, it will only main thread.
