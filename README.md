@@ -54,19 +54,19 @@ Reentrant Locks also offer a fairness parameter, by which the lock would abide b
 ==
 
 public void some_method()
-{
-        reentrantlock.lock();
-        try
-        {
-            //Do some work
-        }
-        catch(Exception e)
-        {
-            e.printStackTrace();
-        }
-        finally
-        {
-            reentrantlock.unlock();
-        }
-         
-}
+	{
+	        reentrantlock.lock();
+	        try
+	        {
+	            //Do some work
+	        }
+	        catch(Exception e)
+	        {
+	            e.printStackTrace();
+	        }
+	        finally
+	        {
+	            reentrantlock.unlock();
+	        }
+	         
+	}
