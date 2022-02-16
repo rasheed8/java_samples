@@ -53,6 +53,7 @@ Reentrant Locks also offer a fairness parameter, by which the lock would abide b
 
 ==
 Java 8 Funcional Interfaces:
+==
 It should have only one abstract method.
 but it can have multiple static & default methods.
 
